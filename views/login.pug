@@ -1,0 +1,59 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='description' content='Welcome to BeeLinQ. Earn money by sharing short links. To start earning: >> Click on login >> Sign in into your account >> Or Create a new account >> After login shorten the links >> Share the short links')
+  meta(name='keywords' content='url shortener,link shortener,beelinq,beelinq link,beelink,short url,bitly url shortener,earn money')
+  meta(name='author' content='Unnat Mistry')
+  meta(property='og:site_name' content='')
+  meta(property='og:type' content='website')
+  meta(property='og:locale' content='en_US')
+  meta(property='og:image' content='')
+  meta(property='og:description' content='Welcome to BeeLinQ. Earn money by sharing short links. To start earning: >> Click on login >> Sign in into your account >> Or Create a new account >> After login shorten the links >> Share the short links')
+  meta(property='og:url' content='http://beelinq.link')
+  meta(name='robots' content='index,follow')
+  meta(name='distribution' content='global')
+  meta(name='revisit-after' content='1 days')
+  meta(name='Identifier-URL' content='http://beelinq.link')
+  meta(name='Content-Language' content='en-UK')
+  meta(content='chrome=1' https-equiv='X-UA-Compatible')
+  meta(name='title' content='BeeLinQ')
+  meta(content='10' name='pagerank™')
+  meta(content='1, 2, 3, 10, 11, 12, 13, ATF' name='serps')
+  meta(content='5' name='seoconsultantsdirectory')
+  meta(content='[b]BeeLinQ.link[/b]' name='author')
+  meta(content='General' name='Rating')
+  meta(content='never' name='Expires')
+  meta(content='all' name='audience')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title BeeLinQ
+  style
+    include login.css
+  link(rel='shortcut icon' href='../static/favicon.ico')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Poppins&display=swap' rel='stylesheet')
+nav
+  ul
+    li#navTitle
+      img#logo2img(src='/static/logo2.png' alt='logo')
+      img#logo1img(src='/static/logo.png' alt='logo')
+    li
+      a(href='/') Home
+    li
+      a(href='/login') Login
+    li
+      a(href='/payscale') PayScale
+#titleImg
+  img(src='/static/logo.png' alt='logo')
+form(action='/login' method='POST')
+  input#email(type='email' name='email' placeholder='Enter email' required='')
+  input#password(type='password' name='password' placeholder='Enter password' required='')
+  input(type='hidden' name='copyVal' value="")
+  button#login(type='submit') Login
+p  #{error}
+
+button#newAcc(type='button')
+  a(href='/newAcc') Create a new Account
+footer
+  p &copy; BeeLinQ.link

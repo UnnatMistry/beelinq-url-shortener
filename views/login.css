@@ -1,0 +1,280 @@
+:root {
+    --navbg: rgb(255, 255, 255);
+    --navTit: #1a73e8;
+    --secbg: #f5f1f1;
+    --fontcolor: #5f6368;
+    --bordercolor: #dadce0;
+    --warn: #fa5a4e;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        scroll-behavior: smooth;
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--fontcolor);
+    }
+    #logo1img {
+        display: none;
+    }
+ 
+    nav {
+        background-color: var(--navbg);
+        color: var(--fontcolor);
+        opacity: 0.9;
+        position: sticky;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-right: 0px;
+        top: 0px;
+        box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    }
+    nav ul {
+        background-color: var(--navbg);
+        color: var(--fontcolor);
+        margin-top: 0px;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: var(--fontcolor);
+    }
+    nav ul li a:hover {
+        color: var(--navTit);
+    }
+    #titleImg img {
+        width: 50vw;
+        display: block;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    #navTitle img {
+        width: 30px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+    form {
+        display: block;
+        background-color: white;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 5% 5px;
+        margin: 10% 10%;
+        color: var(--fontcolor);
+        border: 1px solid var(--bordercolor);
+        box-shadow: 0px 0px 10px var(--bordercolor);
+    }
+    form:hover{
+        transform: scale(1.008);
+        transition-timing-function:ease;
+        transition-duration: 0.18s;
+        box-shadow: 0px 0px 8px rgb(182, 180, 180);
+
+    }
+
+    input {
+        height: 20px;
+        width: 40vw;
+        font-size: small;
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+        width: 60%;
+    }
+    #login {
+        display: block;
+        margin: 10px auto;
+        margin-top: 15px;
+        background-color: #1a73e8;
+        color: white;
+        border-radius: 5px;
+    }
+    button {
+        height: 25px;
+    }
+    form button{
+        width: 20vw;
+        height: 25px;
+    }
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+    p {
+        color: var(--warn);
+        height: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+    #newAcc {
+        display: block;
+        margin: 10px auto;
+        background-color: #df3c13;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    footer p{
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        /* display: block; */
+        margin-left: -55px;
+        text-align: center;
+        margin-bottom: 0px;
+        color: var(--fontcolor);
+    }
+}
+
+@media screen and (min-width:700px) {
+    body {
+        scroll-behavior: smooth;
+        margin: 0px;
+        padding: 0px;
+        color: var(--fontcolor);
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--fontcolor);
+    }
+    #logo2img {
+        display: none;
+    }
+    h2 {
+        color: var(--navTit);
+    }
+
+    nav {
+        background-color: var(--navbg);
+        color: var(--fontcolor);
+        opacity: 0.9;
+        position: sticky;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        top: 0px;
+        box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    }
+    nav ul {
+        margin-top: 0px;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: var(--fontcolor);
+    }
+    nav ul li a:hover {
+        color: var(--navTit);
+    }
+    #titleImg img {
+        display: none;
+
+    }
+    #navTitle img {
+        width: 150px;
+    }
+    form {
+        font-size: 16px;
+        display: block;
+        margin: 10px auto;
+        width: 30vw;
+        border-radius: 10px;
+        margin-top: 10vh;
+        margin-bottom: 20px;
+        padding: 40px 0px;
+        background-color: white;
+        border: 1px solid var(--bordercolor);
+        box-shadow: 0px 0px 10px var(--bordercolor);
+        color: var(--fontcolor);
+        justify-content: center;
+    }
+    form:hover {
+        transform: scale(1.008);
+        transition-timing-function: ease;
+        transition-duration: 0.18s;
+        box-shadow: 0px 0px 8px rgb(182, 180, 180);
+    }
+
+    input {
+        font-size: 18px;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 10px auto;
+        /* width: 60%; */
+        width: 18vw;
+        height: 30px;
+        border: 1px solid var(--bordercolor);
+        box-shadow: 0px 0px 5px var(--bordercolor);
+        text-align: center;
+        border-radius: 5px;
+
+    }
+   input:hover {
+        transform: scale(1.008);
+       transition-timing-function: ease;
+       transition-duration: 0.18s;
+       box-shadow: 0px 0px 8px rgb(182, 180, 180);
+   }
+
+    #login {
+        font-size: 18px;
+        height: 30px;
+        /* float: right; */
+        width: 10vw;
+        display: block;
+        margin: 0px auto;
+        margin-top: 20px;
+        background-color: #1a73e8;
+        color: white;
+        border-radius: 5px;
+    }
+    button {
+        font-size: 18px;
+        height: 30px;
+        /* padding: 4px; */
+    }
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+    button:hover {
+        transform: scale(1.008);
+        transition-timing-function: ease;
+        transition-duration: 0.18s;
+        box-shadow: 0px 0px 8px rgb(182, 180, 180);
+    }
+
+    p {
+        color: var(--warn);
+        height: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+    #newAcc {
+        display: block;
+        margin: 10px auto;
+        background-color: var(--warn);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    footer p {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-bottom: 0px;
+        margin-left: -61.87px;
+        text-align: center;
+        color: var(--fontcolor);
+    }
+}

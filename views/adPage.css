@@ -1,0 +1,176 @@
+:root {
+    --navbg: rgb(255, 255, 255);
+    --navTit: #1a73e8;
+    --secbg: #f5f1f1;
+    --fontcolor: rgb(180, 162, 162);
+
+
+
+}
+@media screen and (max-width:1000px) {
+
+body {
+    scroll-behavior: smooth;
+    margin: 0px;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: var(--navbg);
+    /* display: flex; */
+    color: black;
+    opacity: 0.9;
+    position: sticky;
+    padding-top: 6px;
+    padding-bottom: 0.1px;
+    top: 0px;
+    box-shadow: 0px 2px 10px rgb(87, 87, 87);
+    padding-left: 5px;
+    padding-right: 5px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#f1 {
+    float: left;
+    width: 10%;
+    padding-top: 5px;
+}
+
+#f1 img {
+    width: 100%;
+}
+
+#f2 {
+    float: right;
+    width: 100%;
+    position: absolute;
+
+}
+
+#f3 {
+    /* margin: 10px; */
+    display: block;
+    clear: both;
+}
+
+
+
+#titleImg img {
+
+    width: 50vw;
+    display: block;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+button {
+    background-color: var(--navTit);
+    color: white;
+    width: 8em;
+    display: block;
+    border-radius: 5px;
+    clear: both;
+    margin: auto auto;
+    margin-top: 30px;
+    /* margin-bottom: 5px; */
+
+
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    /* margin-bottom: px; */
+}}
+
+
+@media screen and (min-width:1000px) {
+
+
+
+    body {
+        scroll-behavior: smooth;
+        margin: 0px;
+        font-size: medium;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    nav {
+        background-color: var(--navbg);
+        /* display: flex; */
+        color: black;
+        opacity: 0.9;
+        position: sticky;
+        padding-top: 6px;
+        padding-bottom: 0.1px;
+        top: 0px;
+        box-shadow: 0px 2px 10px rgb(87, 87, 87);
+        padding-left: 5px;
+        padding-right: 5px;
+        /* height: 50px; */
+        /* justify-content: center; */
+        text-align: center;
+    }
+    
+    #f1 {
+        float: left;
+        width: 4%;
+        /* position: absolute; */
+        /* background-color: violet; */
+        margin-left: 20vw;
+        /* padding-top: 5px; */
+    }
+    
+    #f1 img {
+        margin-right: 20vw;
+
+        padding-right: 20vw;
+        width: 100%;
+    }
+    
+    #f2 {
+        float: right;
+        position: absolute;
+        width: 100%;
+        /* background-color: violet; */
+        /* font-size: x-large; */
+    }
+    
+    #f3 {
+        /* margin: 10px; */
+        display: block;
+        clear: both;
+    }
+    
+    
+    
+    #titleImg img {
+    
+        width: 20vw;
+        display: block;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    
+    button {
+        background-color: var(--navTit);
+        color: white;
+        width: 8em;
+        display: block;
+        border-radius: 5px;
+        clear: both;
+        margin: auto auto;
+        margin-top: 30px;
+        /* margin-bottom: 5px; */
+    
+    
+    }
+    
+    button a {
+        color: white;
+        text-decoration: none;
+        /* margin-bottom: px; */
+    }
+}
