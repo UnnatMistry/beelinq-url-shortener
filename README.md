@@ -34,7 +34,7 @@ node app.js
 ## Demo
 <img src="https://github.com/UnnatMistry/images-gif/blob/832f079fa1723da7091a064894993967ddc4647f/Beelinq/rec.gif" width = '30%' center/> 
 
-<!-- ![](https://github.com/UnnatMistry/images-gif/blob/832f079fa1723da7091a064894993967ddc4647f/Beelinq/rec.gif) -->
+<!-- ![](https://github.com/UnnatMistry/images-gif/blob/ec656add19168dc1ed91a009e565c7462cf7a93b/Beelinq/rec.gif) -->
 
 ## Feedback
 
