@@ -33,8 +33,9 @@ node app.js
 ```
 
 ## Demo
+<kbd>
 <img src="https://github.com/UnnatMistry/images-gif/blob/ec656add19168dc1ed91a009e565c7462cf7a93b/Beelinq/rec.gif" width = '30%' center/> 
-
+</kbd>
 <!-- ![](https://github.com/UnnatMistry/images-gif/blob/ec656add19168dc1ed91a009e565c7462cf7a93b/Beelinqb/rec.gif) -->
 
 ## Feedback
