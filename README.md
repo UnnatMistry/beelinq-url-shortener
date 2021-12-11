@@ -1,6 +1,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/UnnatMistry/images-gif/832f079fa1723da7091a064894993967ddc4647f/Beelinq/logo.png" width = '40%' center/> 
-</p>
+</p>\
 
 # BeeLinQ url shortener
 
